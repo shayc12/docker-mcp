@@ -1,0 +1,8 @@
+{
+  "servers": {
+    "docker-lab": {
+      "type": "sse",
+      "url": "http://<SERVER-IP>:8811/sse"
+    }
+  }
+}
