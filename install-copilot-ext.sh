@@ -25,8 +25,8 @@ echo "Installed extensions:"
 code-server --list-extensions | grep -i copilot || true
 
 
-echo "Restarting code-server..."
-sudo systemctl restart code-server@ubuntu || true
+echo "Restarting code-server service..."
+sudo systemctl restart code-server@ubuntu
 
 echo "Done."
 echo "Now reopen code-server in the browser."
